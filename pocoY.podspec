@@ -8,11 +8,11 @@ Written in modern, standard ANSI C++, using the C++ Standard Library. Modular de
   s.homepage     = 'http://pocoproject.org/'
   s.license      = 'POCO'
   s.author       = { 'waTeim' => 'truthset@gmail.com' }
-  s.source       = { :git => 'https://github.com/waTeim/poco.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/waTeim/pocoY.git', :tag => s.version.to_s }
   s.platform     = :osx
   s.requires_arc = false
   s.vendored_libraries = 'lib/*.a'
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/poco/include"' }
+  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/pocoY/include"' }
   s.private_header_files = s.source_files =
      'include/**/*.h',
      'include/**/**/*.h',
